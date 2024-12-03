@@ -64,41 +64,60 @@
 
   <!--  <img class="background-image" src="assets/img/background/tunnel_slowmo.gif" /> -->
   <video class="background-image" src="assets/img/background/binary_rain.mp4" muted loop autoplay></video>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-    <div class="container">
-      <h1><a href="index.html">Dawood Sarfraz</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span> Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-<!--          <li><a href="#experience"> <span>Experience</span></a></li>
-          <li><a href="#service"> <span>Services</span></a></li>
-          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li> 
-          <li><a href="https://github.com/Daudsarfraz/Dawood-Sarfraz-Resume/blob/main/Lahore/Dawood_Sarfraz_ML_CV.pdf" target="_blank"> <span>Resume</span></a></li>
-          <li><a href="#links"> <span>Blog</span></a></li>
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-      <div class="social-links">
-          <a href="https://www.linkedin.com/in/dawood-sarfraz-0466541b6" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.github.com/daudsarfraz" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:dawoodsarfraz.cs@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-          <a href="https://twitter.com/DawoodChattha03" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.hackerrank.com/profile/Daudsarfraz" target="_blank" class="hackerrank"><img class="svg" src="assets/social/hackerrank.svg" width="13" /></a>
-          <a href="https://leetcode.com/u/Daudsarfraz/" target="_blank" class="leetcode"><img class="svg" src="assets/social/leetcode.svg" width="13" /></a>
-          <a href="https://www.kaggle.com/dawoodsarfraz" target="_blank" class="kaggle"><img class="svg" src="assets/social/kaggle.png" width="13" /></a>    
-<!--      <a href="https://www.hackerrank.com/arasgungore" target="_blank" class="upwork"><img class="svg" src="assets/social/upwork.png" width="13" /></a>
-          <a href="https://leetcode.com/arasgungore" target="_blank" class="fiverr"><img class="svg" src="assets/social/fiverr.png" width="13" /></a>    
-      -->
-        </div>
+<!-- ======= Header ======= -->
+<header id="header" class="header-tops">
+  <div class="container">
+    <h1><a href="index.html">Dawood Sarfraz</a></h1>
+    <h2 style="color:#fff">I'm <span class="typing" style="color:#12D640"></span></h2>
+    <nav class="nav-menu d-none d-lg-block">
+      <ul>
+        <li class="active"><a href="#header"><span>Home</span></a></li>
+        <li><a href="#about"><span>About</span></a></li>
+        <li><a href="#education"><span>Education</span></a></li>
+        <li><a href="#portfolio"><span>Projects</span></a></li>
+        <li><a href="#skills"><span>Skills</span></a></li>
+        <!-- View Resume Embedded -->
+        <li>
+          <a href="#resume-viewer"><span>Resume</span></a>
+        </li>
+        <li><a href="#links"><span>Blog</span></a></li>
+        <li><a href="#contacts"><span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+    
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/dawood-sarfraz-0466541b6" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://www.github.com/daudsarfraz" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      <a href="mailto:dawoodsarfraz.cs@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+      <a href="https://twitter.com/DawoodChattha03" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="https://www.hackerrank.com/profile/Daudsarfraz" target="_blank" class="hackerrank"><img class="svg" src="assets/social/hackerrank.svg" width="13" /></a>
+      <a href="https://leetcode.com/u/Daudsarfraz/" target="_blank" class="leetcode"><img class="svg" src="assets/social/leetcode.svg" width="13" /></a>
+      <a href="https://www.kaggle.com/dawoodsarfraz" target="_blank" class="kaggle"><img class="svg" src="assets/social/kaggle.png" width="13" /></a>
     </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->
+
+<!-- ======= Embedded PDF Viewer ======= -->
+<section id="resume-viewer" style="margin: 50px auto; text-align: center; display: block;">
+  <h2>Resume</h2>
+  
+  <!-- PDF Viewer embedded using Google Docs Viewer -->
+  <iframe 
+    src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Daudsarfraz/Dawood-Sarfraz-Resume/main/Lahore/Dawood_Sarfraz_ML_CV.pdf&embedded=true" 
+    width="80%" 
+    height="800px" 
+    style="border: 0; margin: 0 auto;">
+  </iframe>
+
+  <!-- Download Resume Button -->
+  <a href="https://raw.githubusercontent.com/Daudsarfraz/Dawood-Sarfraz-Resume/main/Lahore/Dawood_Sarfraz_ML_CV.pdf" download="Dawood_Sarfraz_ML_CV.pdf">
+    <button style="margin-top: 40px; padding: 10px 20px; background-color: #12D640; color: white; border: none; cursor: pointer; display: block; margin-left: auto; margin-right: auto; margin-bottom: 50px;">
+      Download Resume
+    </button>
+  </a>
+</section>
+
+
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
